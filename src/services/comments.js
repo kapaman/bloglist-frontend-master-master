@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/api/blogs/'
+const baseUrl = 'https://bloglist-kapaman.herokuapp.com/api/blogs/'
 
 const postComment=async (data) => {
   const response = await axios.put(baseUrl+data.id+"/comments",{comment:data.comment} )
