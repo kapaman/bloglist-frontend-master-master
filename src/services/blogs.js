@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'https://bloglist-kapaman.herokuapp.com/api/blogs'
+const baseUrl = 'https://bloglist-kapaman.herokuapp.com/api/blogs/'
 
 let token = null
 const setToken =(newToken) => {
