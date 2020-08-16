@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nav-item>a:hover{
+  border:none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ body{
+  font-family: 'Montserrat', sans-serif;
+ }
+ /* .loginForm{
+   display: flex;
+   justify-content: center;
+   background-color: #8395a7;
+   margin: 100px 400px;
+   border-radius: 30px;
+ }
+ .loginForm>form{
+   
+ } */
+ /* LOGIN FORM */
+.flex-container {
+  display: flex;
+  height: 650px;
+  align-items: center;
+  justify-content:center;
+  background-color: white;
+  
+}
+
+.flex-container > div {
+  background-color: #576574;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  padding:50px;
+  color:#222f3e;
+}
+.flex-container > div>form {
+	display:flex;
+   flex-wrap:wrap;
+   flex-direction:column;
+}
+.flex-container > div>form>input {
+margin:10px 0;
+height: 25px;
+border: none;
+border-radius: 3px;
+font-size:15px;
+line-height: initial;
+
+}
+.flex-container > div>form>.twice {
+	display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+ 
+}.flex-container > div>form>.twice>input {
+	width:45%;
+  margin:10px 0;
+  background-color: #909eac;
+  border: none;
+  height:30px;
+  font-size:20px;
+  color:white;
+  line-height: initial;
+ 
+}
+.flex-container > div>p{
+margin-top:0px;
+font-size:40px;
+border-bottom:2px solid rgb(200, 214, 229);
+color: rgb(200, 214, 229);
+margin-bottom:2.5rem;
+
+
+}
+/* LOGIN FORM END */
+
+
+/* MAIN BLOG FORM */
+#mainBlogForm{
+  display:flex;
+  flex-flow:wrap row;
+  background-color:#f1f1f1
+}
+#mainBlogForm>div#needFlex{
+  width:100%;
+  display:flex;
+  flex-flow:wrap row;
+  justify-content:space-between;
+  border-bottom:rgb(200, 214, 229) 2px solid;
+  
+}
+#mainBlogForm>div.list-group{
+  width:100%;
+
+}
+
+html{
+  background-color:#f1f1f1;
+  zoom:0.8;
+}
+.formasd{
+  width:100%;
+  
+}
+
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  background-color: #f5f0f0;
+  margin: 10px 0;
+  border: 1px solid rgb(151 190 232);
+}
+
+.list-group-item+.list-group-item {
+  border-top-width: 1px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgb(111 111 111 / 5%);
+}
+#root{
+  background-color:#f1f1f1;
+}
