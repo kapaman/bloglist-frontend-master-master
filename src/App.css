@@ -134,7 +134,7 @@ margin-bottom:2.5rem;
 
 html{
   background-color:#f1f1f1;
-  zoom:0.8;
+
 }
 .formasd{
   width:100%;
@@ -160,4 +160,25 @@ html{
 }
 #root{
   background-color:#f1f1f1;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    zoom:0.8;
+  }
+  #blog-heading{
+    font-size:35px;
+  }
+  #comment-heading{
+    font-size:35px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #blog-heading{
+    font-size:25px;
+  }
+  #comment-heading{
+    font-size:25px;
+  }
 }
