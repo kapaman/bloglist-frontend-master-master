@@ -24,7 +24,7 @@ const Comments = ({ blog }) => {
     <div  className="container-fluid">
       <div style={{border:'1px solid rgb(151 190 232)',backgroundColor:'white',padding:'20px',margin:'35px 0'}}>
 
-      <h2>Comments</h2>
+      <h2 id="comment-heading">Comments</h2>
 
               <div className="formComment">
 
