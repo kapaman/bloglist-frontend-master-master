@@ -24,9 +24,9 @@ return (
   <div className="container-fluid" style={{backgrounColor:'#f1f1f1'}}>
 
     <div style={{border:'1px solid rgb(151 190 232)',padding:'20px',backgroundColor:'white',marginTop:'90px'}}>
-        <h1 style={{fontWeight:'100'}}>{blog.title}</h1>
+        <h1 id="blog-heading" style={{fontWeight:'100'}}>{blog.title}</h1>
         <p style={{fontWeight:'100'}}>Author: {blog.author}</p>
-        <p style={{marginTop:'1rem'}}> <a href={blog.url} >{blog.url}</a></p>
+        <p style={{marginTop:'1rem',overflow:'hidden'}}> <a href={blog.url} >{blog.url}</a></p>
         <p ><b className="likeCounter">{blog.likes}</b> likes <Button style={{margin:'5px'}} id={blog.id} size='sm' variant="success" onClick={handleLike} className="like"><i className="fa fa-thumbs-up" aria-hidden="true"></i> like</Button></p>
         <p>added by {blog.user[0].name}</p>
         {remButton(blog)}
