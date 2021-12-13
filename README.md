@@ -1,17 +1,23 @@
-# bloglist-frontend-master-master
+# WeBlog
 
 <img src="https://i.ibb.co/QbDSXh6/weblog.png" style="display:block:margin:auto;">
 
-## Blog list app deployed at :
+## WeBlog is deployed at :
 
 https://bloglistapp-kapaman.herokuapp.com/
 
 username: guest
-
 password: guest
 
-A BLOGLIST APP TO SAVE LINKS TO YOUR FAVOURITE BLOGS AND SHARE IT WITH OTHERS WHILE BEING ABLE TO LIKE AND COMMENT BLOG POSTS
+A bloglist app to save links to your favourite blogs and share it with others while being able to like and comment blog posts
 
-USED MERN STACK WITH CYPRESS TESTING 
+## Used 
+* MongoDB
+* ExpressJS
+* ReactJS
+* NodeJS
+* Bootstrap
 
-STYLED WITH BOOTSTRAP AND MADE RESPONSIVE FOR COMFORTABLE USER EXPERIENCE ACROSS ALL DEVICES
+This was created as a final project for the course FullStackOpen 2020 By Uni. Of Helsinki, Finland
+
+Course Certificate: https://bit.ly/3IK7Kkg
