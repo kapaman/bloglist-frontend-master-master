@@ -2,11 +2,12 @@
 
 <img src="https://i.ibb.co/QbDSXh6/weblog.png" style="display:block:margin:auto;">
 
-## WeBlog is deployed at :
+# WeBlog is deployed at :
 
 https://bloglistapp-kapaman.herokuapp.com/
 
 username: guest
+
 password: guest
 
 A bloglist app to save links to your favourite blogs and share it with others while being able to like and comment blog posts
